@@ -1,0 +1,118 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    background-color: #0E151B;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+}
+h1 {
+    margin-top: 300px;
+    color: #5FABED;
+}
+h2 {
+    color: #5FABED;
+    font-size: 35px;
+    position: relative;
+    top: 150px;
+}
+input {
+    color: #97cdfd;
+    background-color: #1b232b;
+    width: 800px;
+    text-align: center;
+}
+input:hover {
+    border-radius: 7px;
+}
+a {
+    line-height: 1.9;
+}
+a:visited, a:link, a:active {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 26px;
+    text-indent: 2px;
+    
+}
+a:hover {
+    color: #97cdfd;
+}
+input::placeholder {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.entertainment, .social, .dev {
+    display: inline-block;
+    background-color: #1b232b;
+    margin-top:100px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top:30px;
+    padding-bottom:70px;
+    padding-left:70px;
+    padding-right:70px;
+    border: 2px solid #9b9b9b;
+}
+.entertainment:hover, .social:hover, .dev:hover {
+    border: 2px solid rgb(238, 238, 238);
+    box-shadow: 0px 0px 8px 8px #1a2229;
+    background-color: #2b3641;
+    border-radius: 18px;
+}
+p {
+    color: #97cdfd;
+    font-size: 35px;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+button {
+    background-color: #1b232b;
+    color: #97cdfd;
+}
+button:hover {
+    background-color: #97cdfd;
+    color: #0E151B;
+}
+.go {
+    width: 50px;
+    color: #97cdfd;
+}
+input,
+.go {
+    border: none;
+    height: 50px;
+    outline: none;
+}
+.go:hover {
+    border-radius: 9px;
+}
+.se_btn {
+    width: 50px;
+    height: 50px;
+    color: #97cdfd;
+    position: relative;
+    top: 4px;
+    outline: none;
+}
+#se_icon {
+    width: 24px;
+    height: 24px;
+}
+.se_btn:hover {
+    border-radius: 7px;
+}
+input,
+.se_btn {
+    border: none;
+    height: 50px;
+    outline: none;
+}
+.filter-white 
+{
+    filter: invert(100%);
+}

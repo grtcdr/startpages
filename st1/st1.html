@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Startpage</title>
+</head>
+
+<body onload="determineGreet();displayTime(time);">
+    <div>
+        <h1 id="greeting"></h1>
+        <form id="search_eng_form" method="get" action="https://www.duckduckgo.com/">
+        <button type="button" class="se_btn" onclick="se++;cycleSearchEngines(se);"><img id="se_icon"src="icons/ddg.svg" class="filter-white"></button>
+        <input type="search" id="search" placeholder="Searching with DuckDuckGo" autocomplete="off" name="q" autofocus>
+        <button type="submit" class="go">GO</button>
+        </form>
+    </div>
+    <div class="entertainment">
+        <p>watch</p>
+        <a href="https://www.youtube.com">youtube</a><br>
+        <a href="https://www.netflix.com/browse">netflix</a><br>
+        <a href="https://www.twitch.tv/">twitch</a>
+    </div>
+    <div class="social">
+        <p>social</p>
+        <a href="https://www.reddit.com/">reddit</a><br>
+        <a href="https://www.twitter.com/home">twitter</a><br>
+        <a href="https://www.facebook.com">facebook</a>
+    </div>
+    <div class="dev">
+        <p>dev</p>
+        <a href="https://github.com/">github</a><br>
+        <a href="https://dev.to/">dev.to</a><br>
+        <a href="https://www.linuxize.com">linuxize</a>
+    </div>    
+    <br>
+    <h2 id="time"></h2>
+</body>
+
+</html>
