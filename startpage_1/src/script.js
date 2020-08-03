@@ -1,5 +1,5 @@
 /*Change this to your liking*/
-var username = "Taha";
+var username = "grtcdr";
 /*A simple counter that is incremented when the search engines are cycled through*/
 var se = 3;
 /* Search Engine is set to DuckDuckGo by default.
