@@ -40,25 +40,25 @@ function cycleSearchEngines(se)
   se = (se+1)%(search_engines.length);
   if (search_engines[se] == "ddg")
   {
-    document.getElementById("se_icon").src = "icons/ddg.svg";
+    document.getElementById("se_icon").src = "../icons/ddg.svg";
     document.getElementById("search").placeholder = "Searching with DuckDuckGo";
     document.getElementById("search_eng_form").action = "https://www.duckduckgo.com/";
   }
   else if (search_engines[se] == "google")
   {
-    document.getElementById("se_icon").src = "icons/goog.svg"
+    document.getElementById("se_icon").src = "../icons/goog.svg"
     document.getElementById("search").placeholder = "Searching with Google"
     document.getElementById("search_eng_form").action = "https://www.google.com/search?q=";
   }
   else if (search_engines[se] == "reddit")
   {
-    document.getElementById("se_icon").src = "icons/reddit.svg"
+    document.getElementById("se_icon").src = "../icons/reddit.svg"
     document.getElementById("search").placeholder = "Searching with Reddit"
     document.getElementById("search_eng_form").action = "https://www.reddit.com/search?q=";
   }
   else if (search_engines[se] == "youtube")
   {
-    document.getElementById("se_icon").src = "icons/youtube.svg"
+    document.getElementById("se_icon").src = "../icons/youtube.svg"
     document.getElementById("search").placeholder = "Searching with YouTube"
     document.getElementById("search_eng_form").action = "https://www.youtube.com/results?q=";
   }
