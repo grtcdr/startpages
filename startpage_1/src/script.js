@@ -6,18 +6,21 @@ var se = 3;
 You can add any search engine you like, just make sure to add a condition in cycleSearchEngines(se)
 Feel free to reorder the list*/
 var search_engines=["ddg","google","reddit","youtube"];
-/*The following variables are used to determine how to greet the user*/
-/*var time = hours + ":" + minutes + ":" + seconds;*/
-var timer = setInterval("displayTime(time)",1000);
 var today = new Date();
 var hours = today.getHours();
 var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-
 
 function displayTime(time) 
 {
   document.getElementById("time").innerHTML = time;
 }
+
+setInterval( function() {
+  var today = new Date();
+  var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  document.getElementById("time").innerHTML = time;
+}, 1000);
+
 
 function determineGreet(time)
 {
