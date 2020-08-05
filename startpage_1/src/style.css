@@ -21,8 +21,9 @@ h2 {
 input {
     color: #97cdfd;
     background-color: #1b232b;
-    width: 800px;
+    width: 700px;
     text-align: center;
+    transition: border-radius 0.5s;
 }
 input:hover {
     border-radius: 7px;
@@ -56,12 +57,16 @@ input::placeholder {
     padding-left:70px;
     padding-right:70px;
     border: 2px solid #9b9b9b;
+    transition: background-color 1s;
+    transition: border-radius 0.2s;
 }
 .entertainment:hover, .social:hover, .dev:hover {
     border: 2px solid rgb(238, 238, 238);
     box-shadow: 0px 0px 8px 8px #1a2229;
     background-color: #2b3641;
     border-radius: 18px;
+    transition: background-color 1s;
+    transition: border-radius 0.2s;
 }
 p {
     color: #97cdfd;
@@ -81,6 +86,8 @@ button:hover {
 .go {
     width: 50px;
     color: #97cdfd;
+    transition: border-radius 0.5s;
+    transition: background-color 0.3s;
 }
 input,
 .go {
@@ -96,8 +103,10 @@ input,
     height: 50px;
     color: #97cdfd;
     position: relative;
-    top: 4px;
+    top: 6px;
     outline: none;
+    transition: border-radius 0.5s;
+    transition: background-color 0.3s;
 }
 #se_icon {
     width: 24px;
