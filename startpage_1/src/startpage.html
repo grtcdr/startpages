@@ -12,10 +12,10 @@
 <body onload="determineGreet();displayTime(time);">
     <div>
         <h1 id="greeting"></h1>
-        <form id="search_eng_form" method="get" action="https://www.duckduckgo.com/">
-        <button type="button" class="se_btn" onclick="se++;cycleSearchEngines(se);"><img id="se_icon"src="../icons/ddg.svg" class="filter-white"></button>
-        <input type="search" id="search" placeholder="Searching with DuckDuckGo" autocomplete="off" name="q" autofocus>
-        <button type="submit" class="go">GO</button>
+        <div class="search_block">
+            <form id="search_eng_form" method="get" action="https://www.duckduckgo.com/">
+            <button type="button" class="se_btn" onclick="se++;cycleSearchEngines(se);"><img id="se_icon"src="../icons/ddg.svg" class="filter-white"></button><input type="search" id="search" placeholder="Searching with DuckDuckGo" autocomplete="off" name="q" autofocus><button type="submit" class="go">GO</button>
+        </div>
         </form>
     </div>
     <div class="entertainment">

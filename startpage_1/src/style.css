@@ -4,6 +4,7 @@ body {
     width: 100%;
     margin: 0;
     background-color: #0E151B;
+    box-sizing: border-box;
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
@@ -18,15 +19,15 @@ h2 {
     position: relative;
     top: 150px;
 }
+.search_block {
+    margin-top: 50px;
+    height: 50px;
+}
 input {
     color: #97cdfd;
     background-color: #1b232b;
     width: 700px;
     text-align: center;
-    transition: border-radius 0.5s;
-}
-input:hover {
-    border-radius: 7px;
 }
 a {
     line-height: 1.9;
@@ -56,16 +57,14 @@ input::placeholder {
     padding-bottom:70px;
     padding-left:70px;
     padding-right:70px;
-    border: 2px solid #9b9b9b;
-    transition: background-color 1s;
+    border: 2px solid #9b9b9b;  
     transition: border-radius 0.2s;
 }
 .entertainment:hover, .social:hover, .dev:hover {
     border: 2px solid rgb(238, 238, 238);
     box-shadow: 0px 0px 8px 8px #1a2229;
     background-color: #2b3641;
-    border-radius: 18px;
-    transition: background-color 1s;
+    border-radius: 12px;
     transition: border-radius 0.2s;
 }
 p {
@@ -85,35 +84,27 @@ button:hover {
 }
 .go {
     width: 50px;
+    height: 50px;
     color: #97cdfd;
-    transition: border-radius 0.5s;
     transition: background-color 0.3s;
 }
 input,
 .go {
     border: none;
-    height: 50px;
     outline: none;
-}
-.go:hover {
-    border-radius: 9px;
 }
 .se_btn {
     width: 50px;
     height: 50px;
-    color: #97cdfd;
     position: relative;
-    top: 6px;
-    outline: none;
-    transition: border-radius 0.5s;
+    top: 4px;
+    background: linear-grandient(to right, #97cdfd,#0E151B);
     transition: background-color 0.3s;
 }
 #se_icon {
     width: 24px;
     height: 24px;
-}
-.se_btn:hover {
-    border-radius: 7px;
+    transition: background-color 0.3s;
 }
 input,
 .se_btn {
