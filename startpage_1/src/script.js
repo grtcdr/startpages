@@ -1,69 +1,61 @@
+/*Big thanks to u/Teiem1 from reddit for refactoring the old code!*/
+
 /*Change this to your liking*/
 var username = "grtcdr";
 /*A simple counter that is incremented when the search engines are cycled through*/
-var se = 3;
-/* Search Engine is set to DuckDuckGo by default.
-You can add any search engine you like, just make sure to add a condition in cycleSearchEngines(se)
-Feel free to reorder the list*/
-var search_engines=["ddg","google","reddit","youtube"];
-var today = new Date();
-var hours = today.getHours();
-var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+let se = 3;
 
-function displayTime(time) 
-{
-  document.getElementById("time").innerHTML = time;
-}
+/*Listens for click event in se_button, once clicked, se increments by one and cycleSearchEngines() is called to update the icon, placeholder, and form action*/
+document.getElementById("se_button").addEventListener("click", function() {
+  se++;
+  cycleSearchEngines(se);
+});
 
+/*The same as "onload" but works better especially if you'd like to set this startpage as your new tab page*/
+window.addEventListener('load', (event) => {
+  let today = new Date();
+  let hours = today.getHours();
+  let time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  determineGreet(new Date().getHours());
+  displayTime(time);
+});
+
+/*Called every 1000ms to update the time and display it*/
 setInterval( function() {
   var today = new Date();
   var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
   document.getElementById("time").innerHTML = time;
 }, 1000);
 
-
-function determineGreet(time)
+function displayTime(time) 
 {
-  if (hours < 12)
-  {
-    document.getElementById("greeting").innerHTML = "Good Morning, " + username + "!";
-  }
-  else if (hours < 18)
-  {
-    document.getElementById("greeting").innerHTML = "Good Afternoon, " + username + "!";
-  }
-  else
-  {
-    document.getElementById("greeting").innerHTML = "Good Evening, " + username + "!";
-  }
+  document.getElementById("time").innerHTML = time;
 }
 
-function cycleSearchEngines(se)
-{
-  se = (se+1)%(search_engines.length);
-  if (search_engines[se] == "ddg")
-  {
-    document.getElementById("se_icon").src = "../icons/ddg.svg";
-    document.getElementById("search").placeholder = "Searching with DuckDuckGo";
-    document.getElementById("search_eng_form").action = "https://www.duckduckgo.com/";
-  }
-  else if (search_engines[se] == "google")
-  {
-    document.getElementById("se_icon").src = "../icons/goog.svg"
-    document.getElementById("search").placeholder = "Searching with Google"
-    document.getElementById("search_eng_form").action = "https://www.google.com/search?q=";
-  }
-  else if (search_engines[se] == "reddit")
-  {
-    document.getElementById("se_icon").src = "../icons/reddit.svg"
-    document.getElementById("search").placeholder = "Searching with Reddit"
-    document.getElementById("search_eng_form").action = "https://www.reddit.com/search?q=";
-  }
-  else if (search_engines[se] == "youtube")
-  {
-    document.getElementById("se_icon").src = "../icons/youtube.svg"
-    document.getElementById("search").placeholder = "Searching with YouTube"
-    document.getElementById("search_eng_form").action = "https://www.youtube.com/results?q=";
-  }
-return se;
-}
+const determineGreet = hours => document.getElementById("greeting").innerText = `Good ${hours < 12 ? "Morning," : hours < 18 ? "Afternoon," : "Evening,"} ${username}!`;
+
+const search_engines = [{
+  src: "ddg.svg",
+  placeholder: "DuckDuckGo",
+  action: "https://www.duckduckgo.com/"
+}, {
+  src: "goog.svg",
+  placeholder: "Google",
+  action: "https://www.google.com/search?q="
+},  {
+  src: "reddit.svg",
+  placeholder: "Reddit",
+  action: "https://www.reddit.com/search?q="
+},  {
+  src: "youtube.svg",
+  placeholder: "YouTube",
+  action: "https://www.youtube.com/results?q="
+}];
+
+const cycleSearchEngines = se => {
+  const curData = search_engines[(se+1) % search_engines.length];
+
+  document.getElementById("se_icon").src = "icons/" + curData.src;
+  document.getElementById("search").placeholder = "Searching with " + curData.placeholder;
+  document.getElementById("search_eng_form").action = curData.action;
+};
