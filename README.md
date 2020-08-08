@@ -24,5 +24,8 @@ in my case this is: _file:///home/bata/Startpages/startpage_1/src/startpage.html
 _Beware that icons might not show up if you change the icon names and/or their location without updating the code of the startpage_
 
 __You can find a how-to guide to set the startpage as your new tab page over at https://stpg.tk__
+__You can find many more startpages on reddit at r/startpages!__
 
-#### You can find many more startpages on reddit at r/startpages!
+## I'm making more of these, and constantly updating the available ones
+Watch the repo so you never miss out!
+
