@@ -28,6 +28,7 @@ input {
     width: 700px;
     text-align: center;
     height: 50px;
+    font-size: 14px;
 }
 a {
     line-height: 1.9;
