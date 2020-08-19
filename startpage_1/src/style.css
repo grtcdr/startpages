@@ -11,7 +11,6 @@ body {
     top: 30%;
     transform: translateY(-50%);
 }
-
 h1 {
     margin-top: 300px;
     color: #5FABED;
@@ -22,16 +21,12 @@ h2 {
     position: relative;
     top: 150px;
 }
-input {
-    color: #97cdfd;
-    background-color: #1b232b;
-    width: 700px;
-    text-align: center;
-    height: 50px;
-    font-size: 14px;
-}
 a {
     line-height: 1.9;
+}
+p {
+    color: #97cdfd;
+    font-size: 35px;
 }
 a:visited, a:link, a:active {
     color: #bbb;
@@ -42,9 +37,6 @@ a:visited, a:link, a:active {
 }
 a:hover {
     color: #97cdfd;
-}
-input::placeholder {
-    text-align: center;
 }
 .entertainment, .social, .dev {
     display: inline-block;
@@ -66,17 +58,19 @@ input::placeholder {
     background-color: #1a2732;
     border-radius: 10px;
 }
-.search_block {
-    display: inline;
-    margin-right: auto;
-    margin-left: auto;
-}
-p {
+input {
     color: #97cdfd;
-    font-size: 35px;
+    background-color: #1b232b;
+    width: 700px;
+    text-align: center;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    outline: none;
 }
 input:focus::placeholder {
     color: transparent;
+    text-align: center;
 }
 button {
     background-color: #1b232b;
@@ -90,24 +84,20 @@ button:hover {
     width: 50px;
     height: 50px;
     color: #97cdfd;
+    border: none;
     transition: background-color 0.3s, border-radius 0.3s;
 }
 .go:hover {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-input,
-.go {
-    border: none;
-    outline: none;
-}
 .se_btn {
     width: 50px;
     height: 50px;
     color: #1b232b;
     border: none;
-    transition: background-color 0.3s, border-radius 0.3s;
     vertical-align: middle;
+    transition: background-color 0.3s, border-radius 0.3s; 
 }
 .se_btn:hover {
     border-top-left-radius: 5px;
@@ -116,9 +106,7 @@ input,
 #se_icon {
     width: 24px;
     height: 24px;
-    transition: background-color 0.3s;
 }
-.filter-white 
-{
+.filter-white {
     filter: invert(1);
 }
