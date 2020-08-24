@@ -12,8 +12,8 @@ document.getElementById("se_button").addEventListener("click", function() {
 });
 
 function check_if_search_empty() {
+  //Do not allow searching if the user clicks "GO" when the search box is empty
   if (document.forms["search_eng_form"]["q"].value == "") {
-    //Do not search if the user clicks "GO" when the search box is empty
     event.preventDefault();
   }
 } 

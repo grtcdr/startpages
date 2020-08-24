@@ -1,0 +1,84 @@
+* {
+    font-family: 'Share Tech Mono', monospace;
+}
+body {
+    background-color: #0C131F;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.info {
+    display: inline-block;
+    line-height: 0.1;
+}
+.list_title
+{
+    color: #dee3de;
+    font-size: 35px;
+}
+.entertainment, .social, .dev {
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+hr {
+    margin-top: 40px;
+    color: #dee3de;
+    width: 500px;
+}
+#greeting {
+    font-size: 28px;
+    color: #dee3de;
+}
+#time {
+    font-size: 28px;
+    animation:blinking 5s infinite;
+    }
+    @keyframes blinking{
+    0%{     color: #B2E8ED; }
+    20%{    color: #64E9F5; }
+    40%{    color: #49AEB8; }
+    60%{    color: #A1DDE3; }
+    80%{    color: #04BECF; }
+    100%{   color: #B2E8ED; }
+}
+a:visited, a:link, a:active {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 26px;
+    text-indent: 2px;
+    
+}
+#youtube:hover {
+    color: #FF0000
+}
+#netflix:hover{
+    color: #E50914
+}
+#twitch:hover{
+    color: #6441a5
+}
+#reddit:hover{
+    color: #FF4500
+}
+#twitter:hover{
+    color: #08a0e9
+}
+#arch:hover {
+    color: #1793d1;
+}
+a:hover {
+    color: #97cdfd;
+}
+.webico {
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+}
