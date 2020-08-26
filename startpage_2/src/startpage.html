@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap" rel="stylesheet"> 
         <title>New Tab</title>
+        <script async type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <div class="info">
@@ -13,24 +15,29 @@
             <h1 id="greeting"></h1>
         </div>
         <hr>
-        <div class="entertainment">
-            <p class="list_title">watch</p>
-            <img src="https://youtube.com/favicon.ico" class="webico"><a href="https://www.youtube.com" id="youtube">youtube</a><br>
-            <img src="https://twitch.tv/favicon.ico" class="webico"><a href="https://www.twitch.tv/" id="twitch">twitch</a><br>
-            <img src="https://netflix.com/favicon.ico" class="webico"><a href="https://www.netflix.com/browse" id="netflix">netflix</a>
+        <div class="lists">
+            <div class="entertainment">
+                <p class="list_title" id="w">watch</p>
+                <a href="https://www.youtube.com" id="youtube">youtube</a><br>
+                <a href="https://www.twitch.tv/" id="twitch">twitch</a><br>
+                <a href="https://www.netflix.com/browse" id="netflix">netflix</a>
+            </div>
+            <div class="social">
+                <p class="list_title" id="s">social</p>
+                <a href="https://www.reddit.com/" id="reddit">reddit</a><br>
+                <a href="https://www.twitter.com/home" id="twitter">twitter</a><br>
+            </div>
+            <div class="dev">
+                <p class="list_title" id="d">dev</p>
+                <a href="https://github.com/">github</a><br>
+                <a href="https://dev.to/">dev.to</a><br>
+                <a href="https://stackoverflow.com" id="stackoverflow">stack</a>
+            </div>
+            <div class="linux">
+                <p class="list_title" id="l">linux</p>
+                <a href="https://wiki.archlinux.org/" id="arch">archwiki</a><br>
+                <a href="https://linuxize.com/">linuxize</a>
+            </div>
         </div>
-        <div class="social">
-            <p class="list_title">social</p>
-            <img src="https://reddit.com/favicon.ico" class="webico"><a href="https://www.reddit.com/" id="reddit">reddit</a><br>
-            <img src="https://twitter.com/favicon.ico" class="webico"><a href="https://www.twitter.com/home" id="twitter">twitter</a><br>
-        </div>
-        <div class="dev">
-            <p class="list_title">dev</p>
-            <a href="https://github.com/">github</a><br>
-            <img src="https://wiki.archlinux.org/favicon.ico" class="webico"><a href="https://wiki.archlinux.org/" id="arch">archwiki</a><br>
-            <a href="https://dev.to/">dev.to</a><br>
-            <a href="https://linuxize.com/">linuxize</a>
-        </div>
-        <script async type="text/javascript" src="script.js"></script>
     </body>
 </html>
