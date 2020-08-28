@@ -4,6 +4,8 @@
 
 __Main features:__
 - Add your favorite websites to the lists for quick access
+- Light/Dark Mode
 - Time-based greeting
 
-_This is a different take on startpage_1_
+### Todo:
+- [ ] Startpage remembers the last mode you were in and sets it on load

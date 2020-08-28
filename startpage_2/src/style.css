@@ -1,17 +1,21 @@
 body {
     background-color: #0C131F;
 }
+.mode_class{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
 .info {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 140px;
     line-height: 0.1;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
 }
 .list_title
 {
-    color: #dee3de;
     font-size: 35px;
 }
 @media all and (max-width: 550px) {
@@ -42,6 +46,16 @@ hr {
     color: #dee3de;
     width: 500px;
 }
+a:visited, a:link, a:active {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 26px;
+    text-indent: 2px;
+    line-height: 1.5;
+}
+a:hover {
+    color: #97cdfd !important
+}
 #greeting {
     font-size: 32px;
     color: #dee3de;
@@ -51,20 +65,14 @@ hr {
     animation:blinking 5s infinite;
     }
     @keyframes blinking{
-    0%{     color: #B2E8ED; }
-    20%{    color: #64E9F5; }
-    40%{    color: #49AEB8; }
-    60%{    color: #A1DDE3; }
-    80%{    color: #04BECF; }
-    100%{   color: #B2E8ED; }
+    0%{     color: #1383F2; }
+    20%{    color: #459EF7; }
+    40%{    color: #77B8F8; }
+    60%{    color: #77B8F8; }
+    80%{    color: #459EF7; }
+    100%{   color: #1383F2; }
 }
-a:visited, a:link, a:active {
-    color: #bbb;
-    text-decoration: none;
-    font-size: 26px;
-    text-indent: 2px;
-    line-height: 1.5;
-}
+
 #w {
     animation:w_blink 5s infinite;
     }
@@ -76,7 +84,6 @@ a:visited, a:link, a:active {
     80%{    color: #7739E3; }
     100%{   color: #9866ED; }
 }
-
 #s {
     animation:s_blink 5s infinite;
     }
@@ -92,45 +99,45 @@ a:visited, a:link, a:active {
     animation:d_blink 5s infinite;
     }
     @keyframes d_blink{
-    0%{     color: #FCE995; }
+    0%{     color: #D1B22A; }
     20%{    color: #D9C777; }
     40%{    color: #D1B22A; }
     60%{    color: #CCA806; }
     80%{    color: #E0BE24; }
-    100%{   color: #FCE995; }
+    100%{   color: #D1B22A; }
 }
 #l {
     animation:l_blink 5s infinite;
     }
     @keyframes l_blink{
-    0%{     color: #A62B44; }
-    20%{    color: #B82C48; }
-    40%{    color: #CC2546; }
-    60%{    color: #CC2546; }
-    80%{    color: #BA1133; }
-    100%{   color: #A62B44; }
+    0%{     color: #CF342B; }
+    20%{    color: #F2746D; }
+    40%{    color: #CF342B; }
+    60%{    color: #F7665E; }
+    80%{    color: #F2746D; }
+    100%{   color: #CF342B; }
 }
 #youtube:hover {
-    color: #FF0000
+    color: #FF0000 !important
 }
 #netflix:hover{
-    color: #E50914
+    color: #E50914 !important
 }
 #twitch:hover{
-    color: #6441a5
+    color: #6441a5 !important
 }
 #reddit:hover{
-    color: #FF4500
+    color: #FF4500 !important
 }
 #twitter:hover{
-    color: #08a0e9
+    color: #08a0e9 !important
 }
 #arch:hover {
-    color: #1793d1;
+    color: #1793d1 !important
 }
 #stackoverflow:hover {
-    color: #EF8236;
+    color: #EF8236 !important
 }
-a:hover {
-    color: #97cdfd;
+#mode {
+   filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%); 
 }
