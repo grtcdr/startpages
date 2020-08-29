@@ -8,4 +8,4 @@ __Main features:__
 - Time-based greeting
 
 ### Todo:
-- [ x ] Startpage remembers the last mode you were in and sets it on load
+- [x] Startpage remembers the last mode you were in and sets it on load
