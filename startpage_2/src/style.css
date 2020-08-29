@@ -1,11 +1,6 @@
 body {
     background-color: #0C131F;
 }
-.mode_class{
-    display: flex;
-    justify-content: center;
-    padding-top: 200px;
-}
 .info {
     display: flex;
     flex-direction: column;
@@ -14,20 +9,20 @@ body {
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
 }
-.list_title
-{
-    font-size: 35px;
-}
 @media all and (max-width: 550px) {
     .info, hr
     {
         visibility: hidden;
         margin: auto;
     }
-    .entertainment, .social, .dev, .linux {
+    .watch, .social, .dev, .linux {
         flex-direction: column;
         width: auto;
     }
+}
+.list_title
+{
+    font-size: 35px;
 }
 .lists {
     display: flex;
@@ -36,7 +31,7 @@ body {
     justify-content: center; 
     font-family: 'Overpass Mono', monospace;
 }
-.entertainment, .social, .dev, .linux {
+.watch, .social, .dev, .linux {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -138,6 +133,19 @@ a:hover {
 #stackoverflow:hover {
     color: #EF8236 !important
 }
+.mode_class{
+    /*display: flex;
+    justify-content: center;
+    padding-top: 200px;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 #mode {
-   filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%); 
+   filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%)
+}
+#mode:hover {
+    filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important
 }
