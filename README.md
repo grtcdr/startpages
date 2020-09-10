@@ -9,7 +9,7 @@ Startpages are the home of your browser, they can contain useful information, re
 The code for a startpage can be found under __src/__ of a startpage folder.
 
 #### To-do:
-[ ] startpage_3 is on its way: it will be just as minimal as previous startpages, but as with my other two startpages, each one contains a unique feature to make it stand out from the rest.
+- [ ] startpage_3 is on its way: it will be just as minimal as previous startpages, but as with my other two startpages, each one contains a unique feature to make it stand out from the rest.
 
 ## How to use my startpages:
 ### Set as home page:
