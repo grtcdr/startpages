@@ -1,0 +1,186 @@
+body {
+    background-color: #2e3440;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    -moz-user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*-------------------------------------------------------*/
+/* This part of the code takes care of styling the cards */
+/*-------------------------------------------------------*/
+
+.card_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_title {
+    font-size: 45px
+}
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 450px;
+    width: 300px;
+    min-width: 200px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #3b4252;
+    box-shadow: -1rem 0 3rem #1b1f26;
+    transition: .2s;
+}
+.card:hover {
+    transform: translateY(-1rem)
+}
+.card:hover~.card {
+    transform: translateX(130px)
+}
+.card:not(:first-child) {
+    margin-left: -130px
+}
+a:visited, a:link, a:active {
+    color: #eceff4;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 2;
+}
+a:hover {
+    text-shadow: 2px 2px 4px #1b1f26;
+}
+#watch > a:hover {
+    color: #bf616a
+}
+#social > a:hover {
+    color: #d08770
+}
+#dev > a:hover {
+    color: #ebcb8b
+}
+#linux > a:hover {
+    color: #a3be8c
+}
+#email > a:hover {
+    color: #b48ead
+}
+a:hover {
+    color: #88c0d0
+}
+
+/*Card name styling*/
+#w {
+    color: #bf616a
+}
+#s {
+    color: #d08770
+}
+#d {
+    color: #ebcb8b
+}
+#l {
+    color: #a3be8c
+}
+#e {
+    color: #b48ead
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* This part of the code takes care of styling the search engine icons, buttons, input box and go button.  */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.search_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  transition: box-shadow 0.5s;
+}
+input {
+    color: #eceff4;
+    background-color: #3b4252;
+    width: 700px;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    vertical-align: top;
+    outline: none;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+button {
+    width: 50px;
+    height: 50px;
+    background: #3b4252;
+    vertical-align: top;
+    border: none;
+    color: #97cdfd;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+    background-color: #81a1c1;
+    color: #eceff4;
+}
+.go {
+    color: #eceff4;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.go:hover {
+    color: #2e3440;
+}
+.se_btn {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+#se_icon {
+    width: 24px;
+    height: 24px;
+}
+.filter-white {
+    filter: invert(1)
+}
+
+/*-------------------------------------------------------------------------*/
+/* This part of the code takes care of the styling the greeting, and time. */
+/*-------------------------------------------------------------------------*/
+
+#time {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px; 
+    font-size: 30px;
+    animation:blinking 5s infinite;
+    }
+    @keyframes blinking{
+    0%{     color: #5e81ac; }
+    25%{    color: #81a1c1; }
+    50%{    color: #88c0d0; }
+    75%{    color: #8fbcbb; }
+    100%{   color: #5e81ac; }
+}
+
+/* "III" or "Tertius" is the name of this startpage*/
+h2 {
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    animation:blinking 5s infinite;
+    }
+    @keyframes blinking{
+    0%{     color: #5e81ac; }
+    25%{    color: #81a1c1; }
+    50%{    color: #88c0d0; }
+    75%{    color: #8fbcbb; }
+    100%{   color: #5e81ac; }
+}
