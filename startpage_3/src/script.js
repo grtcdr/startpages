@@ -1,5 +1,7 @@
 let se = 3;
 
+//document.addEventListener("touchstart", function() {}, true);
+
 // The same as "onload"
 window.addEventListener('load', (event) => {
     let today = new Date();
@@ -28,15 +30,14 @@ document.getElementById("se_button").addEventListener("click", function() {
 });
 
 //Do not allow searching if the user clicks "GO" when the search box is empty
-function check_if_search_empty() {
+function check_if_search_empty(event) {
 if (document.forms["search_eng_form"]["q"].value == "") {
     event.preventDefault();
 }}
 
 document.getElementById("go_btn").addEventListener("click", function(){
-    check_if_search_empty();
-}); 
-
+    check_if_search_empty(event);
+});
 
 const search_engines = [{
     src: "ddg.svg",
