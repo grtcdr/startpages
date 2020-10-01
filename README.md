@@ -2,11 +2,15 @@
 
 #### What are startpages?
 
-Startpages are the home of your browser, they can contain useful information, recently visited websites, time and weather data.
+Startpages are the home of your browser, they can contain useful information such as recently visited websites, time and weather data.
 
 #### Where to find my startpages?
 
-The code for a startpage can be found under __src/__ of a startpage folder.
+The code for a startpage can be found under __src/__ of any startpage folder, there is also an extension available for each startpage under __src/web-ext-artifacts/__
+
+#### Featured startpages:
+
+![Featured Startpages](featured.png)
 
 #### To-do:
 - [x] startpage_3 is on its way: it will be just as minimal as previous startpages, but as with my other two startpages, each one contains a unique feature to make it stand out from the rest.

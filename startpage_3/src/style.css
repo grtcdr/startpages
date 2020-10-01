@@ -1,7 +1,7 @@
 body {
     background-color: #2e3440;
     font-family: 'Poppins', sans-serif;
-    overflow: visible;
+    overflow: hidden;
     -moz-user-select: none;
     padding: 0;
     margin: 0;
@@ -182,84 +182,4 @@ h2 {
     50%{    color: #88c0d0; }
     75%{    color: #8fbcbb; }
     100%{   color: #5e81ac; }
-}
-@media only screen and (max-width: 414px) {
-    a:visited, a:link, a:active {
-        color: #eceff4;
-        height: auto;
-        width: auto;
-        text-decoration: none;
-        font-size: 26px;
-        line-height: 2;
-    }
-    .card_list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .card_title {
-        font-size: 35px
-    }
-    .card {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        min-height: 450px;
-        width: 250px;
-        min-width: 200px;
-        padding: 1.5rem;
-        border-radius: 10px;
-        background-color: #3b4252;
-        box-shadow: -1rem 0 3rem #1b1f26;
-        transition: .2s;
-    }
-    .search_block {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 120px;
-        margin-bottom: 100px;
-        transition: box-shadow 0.5s;
-      }
-    input {
-        color: #eceff4;
-        background-color: #3b4252;
-        width: 240px;
-        text-align: center;
-        height: 50px;
-        font-size: 16px;
-        border: none;
-        vertical-align: top;
-        outline: none;
-    }
-    #time {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        margin: 10px; 
-        font-size: 24px;
-        animation:blinking 5s infinite;
-        }
-        @keyframes blinking{
-        0%{     color: #5e81ac; }
-        25%{    color: #81a1c1; }
-        50%{    color: #88c0d0; }
-        75%{    color: #8fbcbb; }
-        100%{   color: #5e81ac; }
-    }
-    h2 {
-        font-size: 24px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 10px;
-        animation:blinking 5s infinite;
-        }
-        @keyframes blinking{
-        0%{     color: #5e81ac; }
-        25%{    color: #81a1c1; }
-        50%{    color: #88c0d0; }
-        75%{    color: #8fbcbb; }
-        100%{   color: #5e81ac; }
-    }
 }
