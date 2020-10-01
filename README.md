@@ -10,7 +10,7 @@ The code for a startpage can be found under __src/__ of any startpage folder, th
 
 #### Featured startpages:
 
-![Featured Startpages](featured.png)
+![Featured Startpages](featured.webp)
 
 #### To-do:
 - [x] startpage_3 is on its way: it will be just as minimal as previous startpages, but as with my other two startpages, each one contains a unique feature to make it stand out from the rest.
