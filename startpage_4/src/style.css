@@ -1,0 +1,74 @@
+body {
+    background-color: #000000;
+}
+
+.info {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 0;
+    font-family: 'Barlow', sans-serif;
+}
+#greeting {
+    font-size: 34px;
+    color: #dee3de;
+}
+#time {
+    font-size: 40px;
+    color: #6279B8;
+}
+@media all and (max-width: 600px) {
+    .info {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+.list_title
+{
+    font-size: 35px;
+}
+.lists {
+    display: flex;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: center; 
+    font-family: 'Barlow', sans-serif;
+}
+.watch, .social, .dev, .linux, .other {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #EAFDF815;
+    background-color: #EAFDF805;
+    border-radius: 12px;
+    margin: 5px;
+    width: 230px;
+    padding: 40px;
+}
+a {
+    transition: color 0.3s ease;
+}
+a:visited, a:link, a:active {
+    color: #D1DEDE;
+    text-decoration: none;
+    font-size: 33px;
+    text-indent: 2px;
+    line-height: 1.6;
+}
+a:hover {
+    color: #6279B8;
+    font-style: italic;
+}
+#w,#s,#d,#l,#e
+{
+    color: #6279B8;
+}
+#mode {
+   filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%)
+}
+#mode:hover {
+    filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important
+}
