@@ -7,6 +7,7 @@ Startpages are the home of your browser, they can contain useful information suc
 #### Where to find my startpages?
 
 The code for these startpages can be found under __src/__ of any startpage folder, there is also an extension available for each one under __src/web-ext-artifacts/__
+
 Each startpage folder contains a preview and a description of that startpage so you can get an idea of what it does/looks like.
 
 ## How to use the startpages:
