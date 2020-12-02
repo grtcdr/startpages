@@ -1,12 +1,12 @@
 # My startpages
 
 ## Table of Contents:
-- [What is a startpage] (#what-is-startpage)
-- [Where to find my startpages] (#find-startpage)
-- [How to use the startpages] (#use-startpage)
-	- [Set as home page] (#sp-home)
-	- [Set as new tab page] (#sp-newtab)
-	- [Build the extension] (#build-extension)
+- [What is a startpage](#what-is-startpage)
+- [Where to find my startpages](#find-startpage)
+- [How to use the startpages](#use-startpage)
+	- [Set as home page](#sp-home)
+	- [Set as new tab page](#sp-newtab)
+	- [Build the extension](#build-extension)
 
 ### What is a startpage <a name="what-is-startpage"></a>
 
