@@ -1,5 +1,4 @@
 # grtcdr's startpages
-[![grtcdr's github stats](https://github-readme-stats.vercel.app/api?username=grtcdr)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Table of Contents:
 - [What is a startpage](#what-is-startpage)
