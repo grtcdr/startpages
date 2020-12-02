@@ -1,5 +1,10 @@
 # grtcdr's startpages
 
+[![License](https://img.shields.io/github/license/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+[![Issues](https://img.shields.io/github/license/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+[![Stars](https://img.shields.io/github/stars/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+[![Forks](https://img.shields.io/github/issues/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+
 ## Table of Contents:
 - [What is a startpage](#what-is-startpage)
 - [Where to find my startpages](#find-startpage)
