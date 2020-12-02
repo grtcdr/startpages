@@ -1,28 +1,35 @@
 # My startpages
 
-#### What are startpages?
+## Table of Contents:
+- [What is a startpage] (#what-is-startpage)
+- [Where to find my startpages] (#find-startpage)
+- [How to use the startpages] (#use-startpage)
+	- [Set as home page] (#sp-home)
+	- [Set as new tab page] (#sp-newtab)
+	- [Build the extension] (#build-extension)
+
+### What is a startpage
 
 Startpages are the home of your browser, they can contain useful information such as recently visited websites, time and weather data.
 
-#### Where to find my startpages?
+### Where to find my startpages
 
 The code for a startpage can be found under __src/__ of any startpage folder, there is also an extension available for each startpage under __src/web-ext-artifacts/__
 
-## How to use the startpages:
-### Set it as home page:
+### How to use the startpages
+#### Set as home page
 First, let's clone the repo:
 ```
 git clone https://github.com/grtcdr/startpages
 ```
-Set it as a home page for Firefox:
+Set it as a home page for Firefox (And other browsers too):
 1. Open Firefox and click on the hamburger menu on the top right
-2. Click Preferences
-3. Click Home
-4. Next to "Homepage and new windows" is a drop down list: select _Custom URLs_, which we will use to specify the URL of the _startpage_1.html_ local file.
-5. Paste the URL of _startpage_1.html_, this URL will look like: _file:///path/to/your/startpage.html_
+2. Click Preferences > Home
+3. Next to "Homepage and new windows" is a drop down list: select _Custom URLs_, which we will use to specify the URL of the _startpage_1.html_ local file.
+4. Paste the URL of _startpage_1.html_, this URL will look like: _file:///path/to/your/startpage.html_
 Here's an example: file:///home/user/Startpages/startpage_1/src/startpage.html
 
-### Set it as new tab page:
+#### Set as new tab page
 Locate the _XPI_ file under startpage_x>src>web-ext>web-ext-artifacts, this file is an extension and allows you to set the startpage as your new tab page permanently:
 1. Open Firefox and click on the _hamburger menu_ on the top right
 2. Click _Addons_
@@ -33,7 +40,7 @@ You now have the startpage set as your new tab page. If you want to disable/remo
 _If you don't want to use the extension, you can find a how-to guide to set the startpage as your new tab page using a different method over at https://stpg.tk. 
 It didn't work for me, but it might help you out (I heard they're updating it to address some issues)._
 
-## How to build the extension:
+#### Build the extension
 I use web-ext to build and sign my startpage extension, if you are making changes to the startpage to fit your 
 needs and want them to apply to the extension:
 - Install Mozilla's web-ext from [their github page](https://github.com/mozilla/web-ext)
