@@ -1,6 +1,6 @@
 # Screenshot of this startpage
 
-![Screenshot](screenshot.webp)
+![Screenshot](preview.webp)
 
 __Main features:__
 - Mobile-friendly design

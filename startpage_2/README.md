@@ -1,6 +1,6 @@
 # Screenshot of this startpage
 
-![Screenshot](screenshot.png)
+![Screenshot](preview.webp)
 
 __Main features:__
 - Add your favorite websites to the lists for quick access
