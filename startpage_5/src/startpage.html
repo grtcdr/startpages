@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/760b6d6ef1.js" crossorigin="anonymous"></script>
+        <title>New Tab</title>
+</head>
+
+<body>
+        <form id="command-line" name="command-line">
+                <label for="input_field" id="dollar"></label>
+                <input type="text" id="input" name="input" autocomplete="off"><br>
+        </form>
+        <p id="output"></p>
+        <div class="grid-container" id="grid">
+                <div class="youtube"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></div>
+                <div class="twitch"><a href="https://www.twitch.tv/"><i class="fab fa-twitch"></i></a></div>
+                <div class="netflix"><a href="https://www.netflix.com/browse"><i class="fas fa-film"></i></a></div>
+                <div class="reddit"><a href="https://www.reddit.com/"><i class="fab fa-reddit-alien"></i></a></div>
+                <div class="twitter"><a href="https://www.twitter.com/home"><i class="fab fa-twitter"></i></a></div>
+                <div class="github"><a href="https://github.com/"><i class="fab fa-github"></i></a></div>
+                <div class="stack"><a href="https://stackoverflow.com"><i class="fab fa-stack-overflow"></i></a></div>
+                <div class="randomcommand"><button type="button" id="dice"><i class="fas fa-dice" id="dice_icon"></i></button></div>
+        </div>
+                <div class="help" id="help-container">
+                        <p id="help-text"></p>
+                        <button type="button" id="help-exit"><i class="fas fa-times" id="help-exit-icon"></i></button>
+                </div>
+        <script async type="text/javascript" src="js/script.js"></script>
+        <script async type="text/javascript" src="js/functions.js"></script>
+        <script async type="text/javascript" src="js/init.js"></script>
+        <script async type="text/javascript" src="js/detect.js"></script>
+</body>
+
+</html>

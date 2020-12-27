@@ -4,4 +4,4 @@
 
 __Main features:__
 - Mobile-friendly design
-- Add your favorite websites to the lists for quick access
+- Quick access to your favorite websites

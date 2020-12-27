@@ -3,7 +3,7 @@
 ![Screenshot](preview.webp)
 
 __Main features:__
-- Add your favorite websites to the lists for quick access
+- Quick access to your favorite websites
 - Light/Dark Mode
 - Time-based greeting
 

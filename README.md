@@ -26,7 +26,7 @@ Startpages are the home of your browser, they can contain useful information suc
 The code for these startpages can be found under __src/__ of any startpage folder, there is also an extension available for each one under __src/web-ext-artifacts/__
 
 ### Todo:
-- [ ] startpage_5 is on its way, it's a breath of fresh air compared to previous startpages that somewhat are variants of each other.
+- [x] startpage_5 is on its way, it's a breath of fresh air compared to previous startpages that somewhat are variants of each other.
 
 Each startpage folder contains a preview and a description of that startpage so you can get an idea of what it does/looks like.
 

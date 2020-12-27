@@ -1,0 +1,168 @@
+body {
+    background: #141414;
+    -moz-user-select: none;
+    overflow: hidden;
+    cursor: default;
+    min-width: 480px;
+}
+
+#dollar, #input, #output {
+    font-family: 'Fira Code', monospace;
+}
+
+.form {
+    display: inline;
+}
+
+.form label{
+    text-align: right;
+}
+
+.form input{
+    text-align: left;
+}
+
+#dollar {
+    color: #51CB20;
+    font-size: 30px;
+    padding-left : 10px;
+}
+
+#input {
+    background-color: transparent;
+    height: 32px;
+    width: 90%;
+    font-size: 30px;
+    border: none;
+    color: #51CB20;
+    padding-left: 15px;
+    caret-color: #51CB20;
+    -moz-user-select: text;
+}
+
+#output {
+    position: fixed;
+    top: 30px;
+    left: 18px;
+    color: #51CB20;
+    font-size: 30px;
+}
+
+.help {
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    opacity: 0;
+    position: relative;
+    margin-left: 50%;
+    top: 150px;
+    left: -550px;
+    border-radius: 6px;
+    background-color: #181818;
+    transition: opacity 0.5s;
+}
+
+#help-text {
+    color: #51CB20;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Fira Code', monospace;
+}
+
+#help-exit
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    top: 510px;
+    background-color: #181818;
+    color: #51CB20;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.grid-container {
+    height: 580px;
+    padding-top: 200px;
+    margin-left: 14%;
+    display: grid;
+    opacity: 1;
+    gap: 12px 12px;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 15%);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "youtube twitch netflix reddit"
+      "twitter github stack randomcommand";
+    transition: opacity .5s;
+}
+
+div.grid-container > * {
+    background-color: #181818;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+div.grid-container > *:hover {
+    border: 1px solid #51CB20;
+    transition: border 1s;
+}
+
+.youtube        { grid-area: youtube;       }
+.twitch         { grid-area: twitch;        }
+.netflix        { grid-area: netflix;       }
+.reddit         { grid-area: reddit;        }
+.twitter        { grid-area: twitter;       }
+.github         { grid-area: github;        }
+.stack          { grid-area: stack;         }
+.randomcommand  { grid-area: randomcommand; }
+
+a, #dice{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: font-size .3s;
+}
+
+#dice {
+    background-color: transparent;
+    border: none;
+    color: #51CB20;
+    text-decoration: none;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#dice:hover {
+    font-size: 44px;
+}
+
+a:visited, a:link, a:active {
+    color: #51CB20;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+a:hover {
+    cursor: pointer;
+    font-size: 44px;
+}
+
+.fas, .fab, .ico {
+    position:relative;
+    top: calc(40% - 10px);
+}
+
+#help-exit-icon {
+    position:relative;
+    top: calc(20% - 10px);
+}
+
+#dice_icon {
+    position:relative;
+    top: calc(0% - 10px);
+}

@@ -11,7 +11,7 @@ document.getElementById("se_button").addEventListener("click", function() {
   cycleSearchEngines(se);
 });
 
-function check_if_search_empty() {
+function check_if_search_empty(event) {
   //Do not allow searching if the user clicks "GO" when the search box is empty
   if (document.forms["search_eng_form"]["q"].value == "") {
     event.preventDefault();
@@ -26,8 +26,8 @@ window.addEventListener('load', (event) => {
   displayTime(time);
 });
 
-document.getElementById("go_btn").addEventListener("click", function(){
-  check_if_search_empty();
+document.getElementById("go_btn").addEventListener("click", function(event){
+  check_if_search_empty(event);
 }); 
 
 // Called every 1000ms to update the time and display it
