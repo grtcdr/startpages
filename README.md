@@ -25,13 +25,13 @@ Each startpage folder contains:
 
 ### Recent Changes: <a name="recent"></a>
 Extensions will no longer be shipped in the repository, as it has recently come to my attention
-that the .xpi files signed (and generated) by web-ext should not be packaged outside of Firefox's add-on market (and I also __do not recommend__ that you install a stranger's xpi files).
+that the .xpi files signed (and generated) by web-ext should not be packaged outside of Firefox's add-on market, the only exception being self-distribution. (and I also __do not recommend__ that you install a stranger's xpi files).
 
 ---
 
 ## Set startpage as new tab page <a name="set-startpage"></a>
 ### Build the extension
-I use __web-ext__ to build and sign my startpage extensions, you will want to rebuild the extension if you want your modifications to the source codes to apply to the extension
+I use __web-ext__ to build and sign my startpage extensions, you will want to rebuild the extension if you want your modifications to the source code to apply to the extension
 
 1. Let's clone the repo: `git clone https://github.com/grtcdr/startpages`
 2. Install Mozilla's web-ext by following their guide on their [github repository](https://github.com/mozilla/web-ext) or from your distribution's official repository.
