@@ -1,6 +1,19 @@
 # grtcdr's startpages
 
-## Preview
+[![License](https://img.shields.io/github/license/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+[![Issues](https://img.shields.io/github/issues/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+[![Stars](https://img.shields.io/github/stars/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+[![Forks](https://img.shields.io/github/forks/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+
+## Table of Contents:
+- [Preview](#preview)
+- [Description](#description)
+- [Recent Changes](#recent)
+- [Set Startpage as New Tab Page](#set-startpage)
+
+---
+
+## Preview <a name="preview"></a>
 Click the collapsible sections to take a look at each startpage before you try one!
 <details><summary>startpage_1</summary>
 
@@ -12,7 +25,7 @@ Click the collapsible sections to take a look at each startpage before you try o
 ![startpage_2 preview](startpage_2/preview.webp)
 
 </details>
-<details><summary>startpage_3, based on the Nord palette</summary>
+<details><summary>startpage_3, based on the [Nord](https://github.com/arcticicestudio/nord) palette.</summary>
 
 ![startpage_3 preview](startpage_3/preview.webp)
 
@@ -27,21 +40,11 @@ Click the collapsible sections to take a look at each startpage before you try o
 ![startpage_5 preview](startpage_5/preview.webp)
 
 </details>
-<details><summary>startpage_6, based on the Gruvbox palette</summary>
+<details><summary>startpage_6, based on the Gruvbox palette.</summary>
 
 ![startpage_6 preview](startpage_6/preview.webp)
 
 </details>
-
-[![License](https://img.shields.io/github/license/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-[![Issues](https://img.shields.io/github/issues/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-[![Stars](https://img.shields.io/github/stars/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-[![Forks](https://img.shields.io/github/forks/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-
-## Table of Contents:
-- [Description](#description)
-- [Recent Changes](#recent)
-- [Set Startpage as New Tab Page](#set-startpage)
 
 ---
 
