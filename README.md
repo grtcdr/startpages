@@ -1,8 +1,37 @@
 # grtcdr's startpages
 
-<p align="center">
-  <img src="preview.webp"/>
-</p>
+## Preview
+Click the collapsible sections to take a look at each startpage before you try one!
+<details><summary>startpage_1</summary>
+
+![startpage_1 preview](startpage_1/preview.webp)
+
+</details>
+<details><summary>startpage_2</summary>
+
+![startpage_2 preview](startpage_2/preview.webp)
+
+</details>
+<details><summary>startpage_3, based on the Nord palette</summary>
+
+![startpage_3 preview](startpage_3/preview.webp)
+
+</details>
+<details><summary>startpage_4</summary>
+
+![startpage_4 preview](startpage_4/preview.webp)
+
+</details>
+<details><summary>startpage_5</summary>
+
+![startpage_5 preview](startpage_5/preview.webp)
+
+</details>
+<details><summary>startpage_6, based on the Gruvbox palette</summary>
+
+![startpage_6 preview](startpage_6/preview.webp)
+
+</details>
 
 [![License](https://img.shields.io/github/license/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
 [![Issues](https://img.shields.io/github/issues/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
@@ -24,8 +53,7 @@ Each startpage folder contains:
 - Brief description of the startpage
 
 ### Recent Changes: <a name="recent"></a>
-Extensions will no longer be shipped in the repository, as it has recently come to my attention
-that the .xpi files signed (and generated) by web-ext should not be packaged outside of Firefox's add-on market, the only exception being self-distribution. (and I also __do not recommend__ that you install a stranger's xpi files).
+- [startpage_6](startpage_6) is here! It's based on the beautiful and cozy Gruvbox palette and it extends Gruvbox's coziness with a minimal design, and some memorable shortcuts to elevate your speed!
 
 ---
 

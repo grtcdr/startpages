@@ -1,0 +1,140 @@
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: #282828;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Uncomment for space between buttons */
+/* .container > * { margin: 0 0 0 10px; } */
+
+#input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    min-width: 35%;
+    height: 48px;
+    font-size: 120%;
+    text-align: center;
+    outline: none;
+    background-color: #1d2021;
+    border: 1px solid #1d2021;
+    border-radius: 12px;
+    color: #bdae93;
+    transition: border-color .4s;
+}
+
+#input:hover {
+    border-color: #83a589;
+}
+
+#input:focus {
+    border-color: #458588;
+}
+
+#avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 128px;
+    height: 128px;
+    border-radius:50%;
+    border: 2px solid #1d2021;
+}
+
+#greeting {
+    font-size: 210%;
+    opacity: 0;
+    color: #fbf1c7;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    transition: opacity ease-in .1s;
+}
+
+.dropbtn {
+    background-color: #1d2021;
+    color: #ebdbb2;
+    width: 160px;
+    border: none;
+    padding: 13px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1d2021;
+    min-width: 160px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    transition: opacity ease-in-out 1s;
+    transition-delay: 2000ms;
+}
+  
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: #ebdbb2;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+  
+.dropdown-content a:hover {
+    background-color: #3c3836;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    height: auto;
+}
+  
+.dropdown:hover .dropbtn {
+    border-bottom: solid 1px #ebdbb240;
+    color: #83a589;
+    transition: color .3s;
+}
+
+#search-engine-indicator {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 110%;
+    transform: translateY(60px);
+    color: #ebdbb290;
+    opacity: 0;
+    transition: opacity ease-in-out .2s;
+}
+
+hr {
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 135px;
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-color: #A8998425;
+}
