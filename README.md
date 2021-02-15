@@ -25,7 +25,7 @@ Click the collapsible sections to take a look at each startpage before you try o
 ![startpage_2 preview](startpage_2/preview.webp)
 
 </details>
-<details><summary>startpage_3, based on the [Nord](https://github.com/arcticicestudio/nord) palette.</summary>
+<details><summary>startpage_3, based on the Nord palette.</summary>
 
 ![startpage_3 preview](startpage_3/preview.webp)
 
@@ -54,6 +54,8 @@ Each startpage folder contains:
 - Source code within __src/__
 - Preview of the startpage
 - Brief description of the startpage
+
+---
 
 ### Recent Changes: <a name="recent"></a>
 - [startpage_6](startpage_6) is here! It's based on the beautiful and cozy Gruvbox palette and it extends Gruvbox's coziness with a minimal design, and some memorable shortcuts to elevate your speed!
