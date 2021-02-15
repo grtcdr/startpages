@@ -12,7 +12,7 @@ let search_engine_index = 0;
 // Search function: Gets called on 'Enter' keypress
 // and depending on which search engine is currently selected
 function duckduckgo_search(str) {
-  if (!isEmpty(str)) {
+  if (str !== "") {
     search_query = "https://duckduckgo.com/?q=" + str;
     window.location.replace(search_query);
   }
@@ -21,7 +21,7 @@ function duckduckgo_search(str) {
 // Search function: Gets called on 'Enter' keypress
 // and depending on which search engine is currently selected
 function google_search(str) {
-  if (!isEmpty(str)) {
+  if (str !== "") {
     search_query = "https://www.google.com/search?q=" + str;
     window.location.replace(search_query);
   }
@@ -30,7 +30,7 @@ function google_search(str) {
 // Search function: Gets called on 'Enter' keypress
 // and depending on which search engine is currently selected
 function github_search(str) {
-  if (!isEmpty(str)) {
+  if (str !== "") {
     search_query = "https://github.com/search?q=" + str;
     window.location.replace(search_query);
   }
@@ -39,7 +39,7 @@ function github_search(str) {
 // Search function: Gets called on 'Enter' keypress
 // and depending on which search engine is currently selected
 function reddit_search(str) {
-  if (!isEmpty(str)) {
+  if (str !== "") {
     search_query = "https://www.reddit.com/search/?q=" + str;
     window.location.replace(search_query);
   }
@@ -48,7 +48,7 @@ function reddit_search(str) {
 // Search function: Gets called on 'Enter' keypress
 // and depending on which search engine is currently selected
 function stackoverflow_search(str) {
-  if (!isEmpty(str)) {
+  if (str !== "") {
     search_query = "https://stackoverflow.com/search?q=" + str;
     window.location.replace(search_query);
   }
