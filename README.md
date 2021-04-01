@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/github/forks/grtcdr/startpages.svg" alt="Forks" />
 </a>
 
-<h4>A preview of one the startpages</h4>
+<h4>A preview of one of the startpages</h4>
 
 <img src="startpage_7/preview.webp" alt="startpage_7 preview" />
 
