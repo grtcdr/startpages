@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" src="assets/ico/coffee-48x48.svg" type="image/x-icon">
+    <title>New Tab</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <button class="dropbtn">Watch</button>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com">YouTube</a>
+                <hr>
+                <a href="https://www.netflix.com/browse">Netflix</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Social</button>
+            <div class="dropdown-content">
+                <a href="https://www.reddit.com">Reddit</a>
+                <hr>
+                <a href="https://www.twitter.com/home">Twitter</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Dev</button>
+            <div class="dropdown-content">
+                <a href="https://www.github.com">Github</a>
+                <hr>
+                <a href="https://www.stackoverflow.com">StackOverflow</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Linux</button>
+            <div class="dropdown-content">
+                <a href="https://www.archlinux.org">Arch Wiki</a>
+                <hr>
+                <a href="https://www.reddit.com/r/linux">r/linux</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Other</button>
+            <div class="dropdown-content">
+                <a href="https://mail.google.com/mail/u/0/#inbox">Personal Mail</a>
+                <hr>
+                <a href="https://mail.google.com/mail/u/1/#inbox">School Mail</a>
+            </div>
+        </div>
+    </div>
+    <img id="avatar" src="assets/img/avatar.png" alt="Your Avatar" data-tooltip="That's you!">
+    <h1 id="greeting"></h1>
+    <form id="search-bar" name="search-bar">
+        <input type="text" id="input" autocomplete="off" placeholder="Searching with DuckDuckGo"><br>
+    </form>
+    <script async type="text/javascript" src="js/script.js"></script>
+    <script async type="text/javascript" src="js/search.js"></script>
+    <script async type="text/javascript" src="js/event_listeners.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: #ffffff;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Uncomment for space between the top bar buttons */
+/* .container > * { margin: 0 0 0 10px; } */
+
+#input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    min-width: 35%;
+    height: 48px;
+    font-size: 120%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #dadada;
+    color: black;
+    transition: border-color .4s;
+}
+
+#input:hover, #input:focus {
+    border-color: #03C0DD;
+}
+
+#input:focus {
+    animation: blinking 1.5s infinite;
+    }
+    @keyframes blinking{
+    0%{     border-color: #03C0DD; }
+    50%{    border-color: #ffffff; }
+    100%{   border-color: #03C0DD; }
+}
+
+#avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 128px;
+    height: 128px;
+    border-radius:50%;
+    border: 2px solid #1d2021;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+}
+
+#greeting {
+    font-size: 210%;
+    opacity: 0;
+    color: #424242;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    transition: opacity ease-in .1s;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: #424242;
+    width: 160px;
+    border: none;
+    padding: 13px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+    min-width: 160px;
+    z-index: 1;
+    transition: opacity ease-in-out 1s;
+    transition-delay: 2000ms;
+}
+  
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: #424242;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+  
+.dropdown-content a:hover {
+    background-color: #eaeaea70;
+    color: #03C0DD;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    height: auto;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #fafafa;
+    color: #03C0DD;
+    transition: color .3s;
+}
+
+hr {
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90%;
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-color: #42424220;
+}

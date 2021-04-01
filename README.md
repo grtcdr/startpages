@@ -1,50 +1,47 @@
-# grtcdr's startpages
+<div align="center">
+<h1>grtcdr's startpages</h1>
 
-[![License](https://img.shields.io/github/license/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-[![Issues](https://img.shields.io/github/issues/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-[![Stars](https://img.shields.io/github/stars/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
-[![Forks](https://img.shields.io/github/forks/grtcdr/startpages.svg?style=for-the-badge)](https://github.com/grtcdr/startpages)
+<a href="https://github.com/grtcdr/startpages">
+    <img src="https://img.shields.io/github/license/grtcdr/startpages.svg" alt="License" />
+</a>
 
-## Table of Contents:
-- [Preview](#preview)
-- [Description](#description)
-- [Recent Changes](#recent)
-- [Set Startpage as New Tab Page](#set-startpage)
+<a href="https://github.com/grtcdr/startpages">
+    <img src="https://img.shields.io/github/stars/grtcdr/startpages.svg" alt="Stars" />
+</a>
 
----
+<a href="https://github.com/grtcdr/startpages">
+    <img src="https://img.shields.io/github/forks/grtcdr/startpages.svg" alt="Forks" />
+</a>
 
-## Preview <a name="preview"></a>
-Click the collapsible sections to take a look at each startpage before you try one!
-<details><summary>startpage_1</summary>
+<h3>startpage_1</h3>
 
-![startpage_1 preview](startpage_1/preview.webp)
+<img src="startpage_1/preview.webp" alt="startpage_1 preview" />
 
-</details>
-<details><summary>startpage_2</summary>
+<h3>startpage_2</h3>
 
-![startpage_2 preview](startpage_2/preview.webp)
+<img src="startpage_2/preview.webp" alt="startpage_2 preview" />
 
-</details>
-<details><summary>startpage_3, based on the Nord palette.</summary>
+<h3>startpage_3</h3>
 
-![startpage_3 preview](startpage_3/preview.webp)
+<img src="startpage_3/preview.webp" alt="startpage_3 preview" />
 
-</details>
-<details><summary>startpage_4</summary>
+<h3>startpage_4</h3>
 
-![startpage_4 preview](startpage_4/preview.webp)
+<img src="startpage_4/preview.webp" alt="startpage_4 preview" />
 
-</details>
-<details><summary>startpage_5</summary>
+<h3>startpage_5</h3>
 
-![startpage_5 preview](startpage_5/preview.webp)
+<img src="startpage_5/preview.webp" alt="startpage_5 preview" />
 
-</details>
-<details><summary>startpage_6, based on the Gruvbox palette.</summary>
+<h3>startpage_6</h3>
 
-![startpage_6 preview](startpage_6/preview.webp)
+<img src="startpage_6/preview.webp" alt="startpage_6 preview" />
 
-</details>
+<h3>startpage_7</h3>
+
+<img src="startpage_7/preview.webp" alt="startpage_7 preview" />
+
+</div>
 
 ---
 
@@ -57,20 +54,15 @@ Each startpage folder contains:
 
 ---
 
-### Recent Changes: <a name="recent"></a>
-- [startpage_6](startpage_6) is here! It's based on the beautiful and cozy Gruvbox palette and it extends Gruvbox's coziness with a minimal design, and some memorable shortcuts to elevate your speed!
+## Set Startpage As New Tab Page <a name="set-startpage"></a>
+### Build & Sign The Extension
+I use `web-ext` to build and sign my startpage extensions, please note that any modifications you make to the startpages won't take effect unless the extension is rebuilt.
 
----
+1. Clone the repository: `git clone https://github.com/grtcdr/startpages`
+2. Jump inside: `cd startpages`
+2. Install `web-ext` by following the guide over in its [GitHub Repository](https://github.com/mozilla/web-ext) or from your distribution's official repositories.
+3. In your terminal, navigate to __src/__ of your desired startpage and run: `web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET`
 
-## Set startpage as new tab page <a name="set-startpage"></a>
-### Build the extension
-I use __web-ext__ to build and sign my startpage extensions, you will want to rebuild the extension if you want your modifications to the source code to apply to the extension
-
-1. Let's clone the repo: `git clone https://github.com/grtcdr/startpages`
-2. Install Mozilla's web-ext by following their guide on their [github repository](https://github.com/mozilla/web-ext) or from your distribution's official repository.
-3. In your terminal, navigate to __src/__ of your desired startpage and run: ` web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET`
-
-For more information on how to obtain your __api-key__ and __api-secret__, [read this guide by Mozilla.](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/)
-Web-ext sign is talked about under _"Signing your extension for self-distribution"_
+For more information on how to obtain your `api-key` and `api-secret`, [read this guide by Mozilla.](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) Signing an extension is talked about under _"Signing your extension for self-distribution"_
 
 _I'm not the only person making these, there's a whole community just as passionate about spicing up the once boring space most people forget about! You can find many more startpages on reddit at **r/startpages**!_
