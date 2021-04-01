@@ -13,31 +13,7 @@
     <img src="https://img.shields.io/github/forks/grtcdr/startpages.svg" alt="Forks" />
 </a>
 
-<h3>startpage_1</h3>
-
-<img src="startpage_1/preview.webp" alt="startpage_1 preview" />
-
-<h3>startpage_2</h3>
-
-<img src="startpage_2/preview.webp" alt="startpage_2 preview" />
-
-<h3>startpage_3</h3>
-
-<img src="startpage_3/preview.webp" alt="startpage_3 preview" />
-
-<h3>startpage_4</h3>
-
-<img src="startpage_4/preview.webp" alt="startpage_4 preview" />
-
-<h3>startpage_5</h3>
-
-<img src="startpage_5/preview.webp" alt="startpage_5 preview" />
-
-<h3>startpage_6</h3>
-
-<img src="startpage_6/preview.webp" alt="startpage_6 preview" />
-
-<h3>startpage_7</h3>
+<h4>A preview of one the startpages</h4>
 
 <img src="startpage_7/preview.webp" alt="startpage_7 preview" />
 
