@@ -21,7 +21,7 @@
 
 ---
 
-## Description <a name="description"></a>
+## 📝 Description <a name="description"></a>
 
 Each startpage folder contains: 
 - Source code within __src/__
@@ -31,7 +31,7 @@ Each startpage folder contains:
 ---
 
 ## Set Startpage As New Tab Page <a name="set-startpage"></a>
-### Build & Sign The Extension
+### 🔨 Build & Sign The Extension
 I use `web-ext` to build and sign my startpage extensions, please note that any modifications you make to the startpages won't take effect unless the extension is rebuilt.
 
 1. Clone the repository: `git clone https://github.com/grtcdr/startpages`
