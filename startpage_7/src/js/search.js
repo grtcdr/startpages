@@ -12,12 +12,18 @@ function decrement_search_engine() {
   if ((search_engine_index > MIN_SEARCH_ENGINE_INDEX) && (document.activeElement !== input)) {
     search_engine_index--;
     input.placeholder = "Searching with " + search_engines[search_engine_index];
+  } else {
+    search_engine_index = MAX_SEARCH_ENGINE_INDEX;
+    input.placeholder = "Searching with " + search_engines[search_engine_index];
   }
 }
 
 function increment_search_engine() {
   if ((search_engine_index < MAX_SEARCH_ENGINE_INDEX) && (document.activeElement !== input)) {
     search_engine_index++;
+    input.placeholder = "Searching with " + search_engines[search_engine_index];
+  } else {
+    search_engine_index = 0;
     input.placeholder = "Searching with " + search_engines[search_engine_index];
   }
 }
