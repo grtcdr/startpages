@@ -53,16 +53,16 @@ In your terminal:
 ```
 git clone https://github.com/grtcdr/startpages
 ```
-3. Jump inside the repository:
+2. Jump inside the repository:
 ```
 cd startpages
 ```
-4. Navigate inside the __src__ directory of your desired startpage. 
+3. Navigate inside the __src__ directory of your desired startpage. 
 Let's use _startpage_7_ as an example:
 ```
 cd startpage_7/src
 ```
-5. Sign the extension
+4. Sign the extension
 ```
 `web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET`
 ```
