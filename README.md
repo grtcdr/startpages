@@ -37,8 +37,15 @@ I use `web-ext` to build and sign my startpage extensions, please note that any 
 🚨 Please note that this is **not the only way** to set my startpages as a new tab page, it is just the way I do it.
 
 #### Prerequisites
-- `web-ext`
-You can install it by following the guide over in its [GitHub Repository](https://github.com/mozilla/web-ext) or from your distribution's official repositories.
+- [web-ext](https://github.com/mozilla/web-ext)
+
+Install from NPM:
+```
+npm install --global web-ext
+```
+
+Got GNU/Linux? It should be available in your distribution's repositories.
+
 #### Building The Extension
 In your terminal:
 
