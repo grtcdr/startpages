@@ -64,10 +64,10 @@ cd startpage_7/src
 ```
 4. Sign the extension
 ```
-`web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET`
+web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET
 ```
 
-If all goes well, you will discover that a new directory, `web-ext-artifacts` has appeared, and it contains a `.xpi` file.
+If all goes well during the signing process, you will discover that a new directory, `web-ext-artifacts` has appeared, and it contains a `.xpi` file.
 
 5. Open Firefox, type `about:addons` in the search bar and drag & drop the `.xpi` file into the window.
 6. Firefox will now prompt you to add the extension, click `Add`
