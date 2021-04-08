@@ -67,6 +67,13 @@ cd startpage_7/src
 `web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET`
 ```
 
+If all goes well, you will discover that a new directory, `web-ext-artifacts` has appeared, and it contains a `.xpi` file.
+
+5. Open Firefox, type `about:addons` in the search bar and drag & drop the `.xpi` file into the window.
+6. Firefox will now prompt you to add the extension, click `Add`
+
+You're good to go, the startpage will now appear every time you open up a new tab page.
+
 For more information on how to obtain your `api-key` and `api-secret`, [read this guide by Mozilla.](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) Signing an extension is talked about under _"Signing your extension for self-distribution"_
 
 _I'm not the only person making these, there's a whole community just as passionate about spicing up the once boring space most people forget about! You can find many more startpages on reddit at **r/startpages**!_
