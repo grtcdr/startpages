@@ -76,4 +76,6 @@ If all goes well during the signing process, you will discover that a new direct
 
 You're good to go, the startpage will now appear every time you open up a new tab page.
 
+---
+
 _I'm not the only person making these, there's a whole community just as passionate about spicing up the once boring space most people forget about! You can find many more startpages on reddit at **r/startpages**!_
