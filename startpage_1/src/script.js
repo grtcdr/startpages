@@ -1,7 +1,7 @@
 // Big thanks to u/Teiem1 from reddit for refactoring the old code!
 
 // Change this to your liking
-var username = "grtcdr";
+let username = "grtcdr";
 // Counter that is incremented when the search engines are cycled through
 let se = 3;
 
@@ -32,8 +32,8 @@ document.getElementById("go_btn").addEventListener("click", function(event){
 
 // Called every 1000ms to update the time and display it
 setInterval( function() {
-  var today = new Date();
-  var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  let today = new Date();
+  let time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
   document.getElementById("time").innerHTML = time;
 }, 1000);
 
