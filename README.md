@@ -51,7 +51,7 @@ Install from NPM:
 npm install --global web-ext
 ```
 
-Got GNU/Linux? It should be available in your distribution's repositories.
+`web-ext` might be available in your distribution's package repositories.
 
 #### Building The Extension
 In your terminal:
