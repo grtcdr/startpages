@@ -34,9 +34,14 @@ Each startpage folder contains:
 
 ## Set Startpage As New Tab Page <a name="set-startpage"></a>
 ### 🔨 Build & Sign The Extension for Firefox
-I use `web-ext` to build and sign my startpage extensions, please note that any modifications you make to the startpages won't take effect unless the extension is rebuilt.
+I use `web-ext` to build and sign my startpage extensions
 
-🚨 Please note that this is **not the only way** to set my startpages as a new tab page, it is just the way I do it.
+⚠️ Any modifications you make to the startpages won't take effect unless the extension is rebuilt
+
+🚨 Please note that this is **not the only way** to set my startpages as a new tab page.
+There are extensions out there, like [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) 
+that could help you customize your New Tab page. I personally could not make such tools work for me,
+but maybe they will for you. 
 
 #### Prerequisites
 - [web-ext](https://github.com/mozilla/web-ext)
