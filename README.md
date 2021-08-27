@@ -15,6 +15,8 @@
 
 <h4>A preview of one of the startpages</h4>
 
+<a href="https://grtcdr.github.io/startpages/">Take it for a spin!</a>
+
 <img src="startpage_7/preview.webp" alt="startpage_7 preview" />
 
 </div>
