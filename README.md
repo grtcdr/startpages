@@ -1,27 +1,10 @@
 <div align="center">
+
 <h1>grtcdr's startpages</h1>
 
-<a href="https://github.com/grtcdr/startpages/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/grtcdr/startpages.svg" alt="License"/>
-</a>
-
-<a href="https://github.com/grtcdr/startpages/stargazers">
-    <img src="https://img.shields.io/github/stars/grtcdr/startpages.svg" alt="Stars"/>
-</a>
-
-<a href="https://github.com/grtcdr/startpages/network/members">
-    <img src="https://img.shields.io/github/forks/grtcdr/startpages.svg" alt="Forks"/>
-</a>
-
-<h4>A preview of one of the startpages</h4>
-
-<a href="https://grtcdr.github.io/startpages/">Take it for a spin!</a>
-
-<img src="startpage_7/preview.webp" alt="startpage_7 preview" />
+<a href="https://grtcdr.github.io/startpages/">Take one for a spin!</a>
 
 </div>
-
----
 
 ## 📝 Description <a name="description"></a>
 
